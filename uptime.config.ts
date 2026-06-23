@@ -12,8 +12,10 @@ const pageConfig: PageConfig = {
   links: [
     { link: 'https://github.com/zzemy', label: 'GitHub' },
     { link: 'https://blog.zzemy.top/', label: 'Blog' },
-    { link: '1992107794@qq.com', label: 'Email Me', highlight: true },
+    { link: 'mailto:1992107794@qq.com', label: 'Email Me', highlight: true },
   ],
+  customFooter:
+    '<p style="text-align: center; font-size: 12px; margin-top: 10px;">© 2026 ZZEMY. Status powered by <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">UptimeFlare</a>.</p>',
 }
 
 const workerConfig: WorkerConfig = {
@@ -23,7 +25,7 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'blog_zzemy_top',
       // `name` is used at status page and callback message
-      name: 'Blog',
+      name: 'blog.zzemy.top',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
