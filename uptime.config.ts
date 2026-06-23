@@ -45,17 +45,17 @@ const workerConfig: WorkerConfig = {
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'emmm_xyz',
+      id: 'emmmxx_xyz',
       // `name` is used at status page and callback message
-      name: 'emmm.xyz',
+      name: 'emmmxx.xyz',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://emmm.xyz',
+      target: 'https://emmmxx.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'emmm.xyz',
+      tooltip: 'emmmxx.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://emmm.xyz/',
+      statusPageLink: 'https://emmmxx.xyz/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
