@@ -25,7 +25,7 @@ if not r['success']:
     if r['errors'][0]['code'] == 7502:
         print("D1 database already exists, skipping creation.")
     elif r['errors'][0]['code'] == 10000:
-        print("Authentication error when creating D1 database. Please make sure your CLOUDFLARE_API_TOKEN has the necessary permissions for D1 Database. This is required for versions after 2026/01/02.")
+        print("Authentication error when creating D1 database. Please make sure your CLOUDFLARE_API_TOKEN is valid and has Account > D1 > Edit permission. This is required for versions after 2026/01/02.")
         exit(1)
     else:
         print("Unknown error creating D1 database: ", r)
