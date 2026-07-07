@@ -29,7 +29,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://blog.zzemy.top',
+      target: 'https://blog.zzemy.top/healthz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'blog.zzemy.top',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
@@ -51,7 +51,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://emmmxx.xyz',
+      target: 'https://emmmxx.xyz/healthz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'emmmxx.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
