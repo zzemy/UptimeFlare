@@ -87,6 +87,58 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare',
       },
     },
+    {
+      id: 'newapi_zzemy_top',
+      name: 'newapi.zzemy.top',
+      method: 'GET',
+      target: 'https://newapi.zzemy.top/healthz',
+      tooltip: 'newapi.zzemy.top',
+      statusPageLink: 'https://newapi.zzemy.top/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
+    },
+    {
+      id: 'cpa_zzemy_top',
+      name: 'cpa.zzemy.top',
+      method: 'GET',
+      target: 'https://cpa.zzemy.top/healthz',
+      tooltip: 'cpa.zzemy.top',
+      statusPageLink: 'https://cpa.zzemy.top/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
+    },
+    {
+      id: 'sub_zzemy_top',
+      name: 'sub.zzemy.top',
+      method: 'GET',
+      target: 'https://sub.zzemy.top/',
+      tooltip: 'sub.zzemy.top',
+      statusPageLink: 'https://sub.zzemy.top/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
+    },
+    {
+      id: 'people_sast_fun',
+      name: 'people.sast.fun',
+      method: 'GET',
+      target: 'https://people.sast.fun/health',
+      tooltip: 'people.sast.fun',
+      statusPageLink: 'https://people.sast.fun/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
+    },
   ],
 }
 
